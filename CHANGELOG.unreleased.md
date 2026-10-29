@@ -78,6 +78,7 @@
 - [XO6/SR] Add SR creation form on Host/Pool Storage tabs for LVM, EXT, SMB, local ISO, SMB ISO types (PR [#10251](https://github.com/vatesfr/xen-orchestra/pull/10251))
 - [XO5/Licenses] On an airgap XOA, upload an airgap data pack to register the appliance and install or renew its licenses, and export the licenses database to send it back to Vates (PR [#10254](https://github.com/vatesfr/xen-orchestra/pull/10254))
 - [REST API] Check that a proxy can be reached: `GET /rest/v0/proxies/:id/health` (PR [#10752](https://github.com/vatesfr/xen-orchestra/pull/10752))
+- [Backups] Add `sizeOnDisk` information which indicates the space actually used on the backup-repository by each backup disk as well as the total, for more accurate backup usage (PR [#10685](https://github.com/vatesfr/xen-orchestra/pull/10685))
 
 ### Bug fixes
 
@@ -129,6 +130,7 @@
 - @vates/types major
 - @xen-orchestra/acl minor
 - @xen-orchestra/autopilot-docking minor
+- @xen-orchestra/backup-archive minor
 - @xen-orchestra/backups major
 - @xen-orchestra/fs minor
 - @xen-orchestra/log major
@@ -140,6 +142,7 @@
 - @xen-orchestra/web minor
 - @xen-orchestra/web-core minor
 - @xen-orchestra/xapi major
+- vhd-lib minor
 - xen-api major
 - xo-collection major
 - xo-server minor
@@ -147,5 +150,6 @@
 - xo-server-load-balancer patch
 - xo-server-sdn-controller minor
 - xo-web minor
+
 
 <!--packages-end-->
