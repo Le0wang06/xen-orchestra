@@ -79,6 +79,7 @@
 - [XO5/Licenses] On an airgap XOA, upload an airgap data pack to register the appliance and install or renew its licenses, and export the licenses database to send it back to Vates (PR [#10254](https://github.com/vatesfr/xen-orchestra/pull/10254))
 - [REST API] Check that a proxy can be reached: `GET /rest/v0/proxies/:id/health` (PR [#10752](https://github.com/vatesfr/xen-orchestra/pull/10752))
 - [Backups] Show the space actually used by each backup on its backup repository, compression and encryption included (XO6 VM dashboard, XOA dashboard backup usage, REST API) (PR [#10685](https://github.com/vatesfr/xen-orchestra/pull/10685))
+- [Backups] Indicate if a disk is a delta or a full (XO6 VM dashboard, XOA dashboard backup usage, REST API) (PR [#10685](https://github.com/vatesfr/xen-orchestra/pull/10685))
 
 ### Bug fixes
 
