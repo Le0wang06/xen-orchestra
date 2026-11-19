@@ -10,6 +10,7 @@
 > Users must be able to say: "Nice enhancement, I'm eager to test it"
 
 - [REST API] Get the state of a proxy appliance updater: `GET /rest/v0/proxies/:id/appliance_updater_state` (PR [#10773](https://github.com/vatesfr/xen-orchestra/pull/10773))
+- [xapi] VDI can be resized online if the xapi is supporting it (PR [#10740](https://github.com/vatesfr/xen-orchestra/pull/10740))
 
 ### Bug fixes
 
