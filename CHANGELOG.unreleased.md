@@ -153,5 +153,4 @@
 - xo-server-sdn-controller minor
 - xo-web minor
 
-
 <!--packages-end-->
