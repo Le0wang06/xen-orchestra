@@ -10,7 +10,7 @@
 > Users must be able to say: "Nice enhancement, I'm eager to test it"
 
 - [REST API] Get the state of a proxy appliance updater: `GET /rest/v0/proxies/:id/appliance_updater_state` (PR [#10773](https://github.com/vatesfr/xen-orchestra/pull/10773))
-- [VDI] VDI can be resized online if the xapi is supporting it (PR [#10845](https://github.com/vatesfr/xen-orchestra/pull/10845))
+- [VDI] Disks of running VMs can be resized when XAPI supports online resize (PR [#10845](https://github.com/vatesfr/xen-orchestra/pull/10845))
 
 ### Bug fixes
 
@@ -44,6 +44,7 @@
 - @xen-orchestra/rest-api minor
 - @xen-orchestra/web patch
 - @xen-orchestra/web-core patch
+- @xen-orchestra/xapi minor
 - xo-collection patch
 - xo-server patch
 
